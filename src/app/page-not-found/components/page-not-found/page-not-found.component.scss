@@ -1,0 +1,51 @@
+.container {
+  background-color: black;
+  width: 100vw;
+  height: 100vh
+}
+
+.text {
+  color: white;
+}
+
+.header {
+  font-size: 10rem;
+  text-align: center;
+}
+
+.description {
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .header {
+    font-size: 15rem;
+  }
+
+  .description {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    font-size: 20rem;
+  }
+
+  .description {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    font-size: 25rem;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 5rem;
+    text-align: center;
+  }
+}

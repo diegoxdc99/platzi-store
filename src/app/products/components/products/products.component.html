@@ -1,0 +1,9 @@
+<!-- [] para usar los inputs del hijo: Se envian las propiedades con los datos -->
+<!-- () para usar los outputs: Se esperan eventos y por medio de la función se dan manejo -->
+<div class="product-grid">
+  <app-product
+    *ngFor="let product of products"
+    [product]="product"
+    (productClicked)="clickProduct($event)">
+  </app-product>
+</div>
